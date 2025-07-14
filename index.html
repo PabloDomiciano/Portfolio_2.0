@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pablo Henrique | Desenvolvedor Full-Stack</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Cursor Personalizado -->
+    <div class="cursor"></div>
+
+    <!-- Navbar -->
+    <header class="header">
+        <div class="container">
+            <a href="#" class="logo">Pablo<span>Dev</span></a>
+
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link active">Início</a></li>
+                    <li><a href="#about" class="nav-link">Sobre</a></li>
+                    <li><a href="#projects" class="nav-link">Projetos</a></li>
+                    <li><a href="#skills" class="nav-link">Habilidades</a></li>
+                    <li><a href="#contact" class="nav-link">Contato</a></li>
+                </ul>
+
+                <div class="nav-actions">
+                    <button id="theme-toggle" class="theme-toggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <a href="#" class="btn primary-btn">Currículo</a>
+                </div>
+            </nav>
+
+            <button class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <h4 class="subtitle">Olá, eu sou</h4>
+                <h1 class="title">Pablo Henrique</h1>
+                <h2 class="profession">Desenvolvedor Full-Stack</h2>
+                <p class="description">Transformando ideias em soluções digitais inovadoras com código limpo e designs
+                    impactantes.</p>
+
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary-btn">Ver Projetos</a>
+                    <a href="#contact" class="btn secondary-btn">Fale Comigo</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="scroll-down">
+            <span>Scroll Down</span>
+            <i class="fas fa-arrow-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h4 class="subtitle">Sobre Mim</h4>
+                <h2 class="section-title">Conheça-me Melhor</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-frame">
+                        <img src="img/perfil.png" alt="Pablo Henrique">
+                    </div>
+                </div>
+
+                <div class="about-info">
+                    <h3>Quem sou eu?</h3>
+                    <p class="about-text">
+                        Sou um desenvolvedor Full-Stack apaixonado por tecnologia e criação de soluções digitais. Com
+                        experiência em diversas tecnologias web, busco constantemente aprender e aplicar novos
+                        conhecimentos em projetos desafiadores.
+                    </p>
+
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <span>Nome:</span>
+                            <p>Pablo Henrique L. Domiciano</p>
+                        </div>
+                        <div class="detail-item">
+                            <span>Email:</span>
+                            <p>pablo.domiciano2019@gmail.com</p>
+                        </div>
+                        <div class="detail-item">
+                            <span>Idade:</span>
+                            <p>22 anos</p>
+                        </div>
+                        <div class="detail-item">
+                            <span>De:</span>
+                            <p>Paranavaí, Brasil</p>
+                        </div>
+                    </div>
+
+                    <div class="experience">
+                        <div class="exp-item">
+                            <h2>1+</h2>
+                            <p>Anos de <span>Experiência</span></p>
+                        </div>
+                    </div>
+
+                    <a href="#" class="btn primary-btn">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h4 class="subtitle">Meus Trabalhos</h4>
+                <h2 class="section-title">Projetos Recentes</h2>
+                <div class="divider"></div>
+                <p class="section-description">Aqui estão alguns dos meus projetos mais recentes. Cada um foi construído
+                    com tecnologias modernas e boas práticas de desenvolvimento.</p>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/projetoUm.jpg" alt="Gerenciador MicroDevs">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Gerenciador MicroDevs</h3>
+                        <p class="project-description">Aplicação de organização de projetos desenvolvida com React para
+                            gerenciamento eficiente de tarefas.</p>
+                        <div class="project-techs">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/projetoDois.jpg" alt="Projeto 2">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Plataforma de E-learning</h3>
+                        <p class="project-description">Sistema completo de cursos online com autenticação de usuários e
+                            painel administrativo.</p>
+                        <div class="project-techs">
+                            <span>JavaScript</span>
+                            <span>Express</span>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="img/projetoTres.jpg" alt="Projeto 3">
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fas fa-eye"></i></a>
+                            <a href="#" class="project-link"><i class="fas fa-code"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">App de Finanças Pessoais</h3>
+                        <p class="project-description">Aplicativo mobile para controle de gastos pessoais com gráficos e
+                            relatórios mensais.</p>
+                        <div class="project-techs">
+                            <span>React Native</span>
+                            <span>Firebase</span>
+                            <span>Redux</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="more-projects">
+                <a href="#" class="btn outline-btn">Ver Mais Projetos <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-header">
+                <h4 class="subtitle">Habilidades Técnicas</h4>
+                <h2 class="section-title">Minhas Especialidades</h2>
+                <div class="divider"></div>
+                <p class="section-description">Tecnologias e ferramentas que utilizo para transformar ideias em
+                    realidade.</p>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Frontend Skills -->
+                <div class="skills-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-laptop-code"></i>
+                        Frontend
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <div class="skill-icon">
+                                    <i class="fab fa-html5"></i>
+                                </div>
+                                <span class="skill-name">HTML5</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-level="90%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <div class="skill-icon">
+                                    <i class="fab fa-css3-alt"></i>
+                                </div>
+                                <span class="skill-name">CSS3</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-level="85%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <div class="skill-icon">
+                                    <i class="fab fa-js"></i>
+                                </div>
+                                <span class="skill-name">JavaScript</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-level="80%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <div class="skill-icon">
+                                    <i class="fab fa-react"></i>
+                                </div>
+                                <span class="skill-name">React</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-level="75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Backend Skills -->
+                <div class="skills-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-server"></i>
+                        Backend
+                    </h3>
+                    <div class="skills-list">
+                        <!-- Node.js -->
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <div class="skill-icon">
+                                    <i class="fab fa-node-js"></i>
+                                </div>
+                                <span class="skill-name">Node.js</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-level="80%"></div>
+                            </div>
+                        </div>
+
+                        <!-- Java -->
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <div class="skill-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                                        alt="Java">
+                                </div>
+                                <span class="skill-name">Java</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-level="75%"></div>
+                            </div>
+                        </div>
+
+                        <!-- Python -->
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <div class="skill-icon">
+                                    <i class="fab fa-python"></i>
+                                </div>
+                                <span class="skill-name">Python</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-level="85%"></div>
+                            </div>
+                        </div>
+
+                        <!-- PostgreSQL -->
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <div class="skill-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+                                        alt="PostgreSQL">
+                                </div>
+                                <span class="skill-name">PostgreSQL</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-level="75%"></div>
+                            </div>
+                        </div>
+
+                        <!-- Spring Boot (opcional, se tiver experiência) -->
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <div class="skill-icon">
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
+                                        alt="Spring Boot">
+                                </div>
+                                <span class="skill-name">Spring Boot</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-level="70%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Other Skills -->
+                <div class="skills-category">
+                    <h3 class="category-title">
+                        <i class="fas fa-tools"></i>
+                        Outras Habilidades
+                    </h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <div class="skill-icon">
+                                    <i class="fab fa-git-alt"></i>
+                                </div>
+                                <span class="skill-name">Git</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-level="80%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <div class="skill-icon">
+                                    <i class="fab fa-github"></i>
+                                </div>
+                                <span class="skill-name">GitHub</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-level="75%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <div class="skill-icon">
+                                    <i class="fas fa-mobile-alt"></i>
+                                </div>
+                                <span class="skill-name">Responsive Design</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-level="85%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <div class="skill-icon">
+                                    <i class="fas fa-paint-brush"></i>
+                                </div>
+                                <span class="skill-name">UI/UX Design</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="progress-bar" data-level="60%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h4 class="subtitle">Entre em Contato</h4>
+                <h2 class="section-title">Vamos Trabalhar Juntos</h2>
+                <div class="divider"></div>
+                <p class="section-description">Estou disponível para oportunidades de trabalho freelance e colaborações.
+                    Sinta-se à vontade para entrar em contato comigo.</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Email</h4>
+                            <a href="mailto:pablo.domiciano2019@gmail.com">pablo.domiciano2019@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Telefone</h4>
+                            <a href="tel:+5544999194205">+55 44 99919-4205</a>
+                        </div>
+                    </div>
+
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Localização</h4>
+                            <span>Paranavaí, Brasil</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Seu Nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Seu Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Assunto">
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Sua Mensagem" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary-btn">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#" class="logo">Pablo<span>Dev</span></a>
+                    <p>Desenvolvedor Full-Stack criando soluções digitais inovadoras e eficientes.</p>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#projects">Projetos</a></li>
+                        <li><a href="#skills">Habilidades</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4>Informações de Contato</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> pablo.domiciano2019@gmail.com</li>
+                        <li><i class="fas fa-phone-alt"></i> +55 44 99919-4205</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Paranavaí, Brasil</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Pablo Henrique. Todos os direitos reservados.</p>
+                <div class="footer-social">
+                    <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
